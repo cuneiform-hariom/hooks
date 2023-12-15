@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Gallery from './componens/Gallery';
+// import ApiProject from './componens/ApiProject';
+import Todo from './componens/Todo';
+// import UseEffect from './componens/UseEffect';
+// import Usestate from './componens/Usestate';
+// import Comp1 from './componens/usecontext/Comp1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Usestate /> */}
+      {/* <hr /> */}
+      {/* <UseEffect/> */}
+      {/* <ApiProject/> */}
+      {/* <Comp1/> */}
+      {/* <Todo/> */}
+      <Gallery/>
+    </>
   );
 }
 
