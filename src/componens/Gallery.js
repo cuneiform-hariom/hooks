@@ -54,6 +54,15 @@ const Menu = [
         price: "200",
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptates consectetur voluptatem corrupti, veritatis ab natus pariatur nihil magni placeat.",
 
+    },
+    {
+        id: 7,
+        image: require("../assets/images/img5.jpg"),
+        name: "Dosa 7",
+        category: "xyz",
+        price: "200",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia voluptates consectetur voluptatem corrupti, veritatis ab natus pariatur nihil magni placeat.",
+
     }
 
 ]
